@@ -1,6 +1,6 @@
 # vtrak_j830s
 
-🔧 Python Script: vtrak_serial_logger.py
+🔧 Python Script: vtrak_telegraf.py
 This script:
 
 Opens the serial port to the JBOD
@@ -10,6 +10,13 @@ Compatible with Graylog via rsyslog forwarding
 
 requirements:  
 python3-serial rsyslog
+
+run via telegraf:
+[[inputs.exec]]
+  commands = ["/usr/local/bin/vtrak_telegraf.py"]
+  timeout = "10s"
+  data_format = "influx"
+  interval = "300s"  # 5 minutes
 
 
 output to Grafana dash:
