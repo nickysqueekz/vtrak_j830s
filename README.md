@@ -61,10 +61,12 @@ VTrak system rear view - RJ11 serial connectors
 Then, plug the DB9F end of the serial data cable in to either a computer serial port or a USB-Serial adapter.
 
 USB-Serial Adapter
+
 ![image](https://github.com/user-attachments/assets/7d8a4dcc-d9e2-48c1-8999-618d1a1ce84e)
 
 
 Computer Serial Port
+
 ![image](https://github.com/user-attachments/assets/977dfdb9-6d96-4ae1-9863-e30f689ba3cc)
 
 
