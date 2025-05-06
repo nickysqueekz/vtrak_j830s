@@ -76,10 +76,12 @@ Baud rate = 115200
 Data Bits = 8 bits
 Parity = None
 Stop Bits: 1
-Flow Control: None ```
+Flow Control: None
+```
 Press the Enter or Return key and you should see a login prompt in the terminal application. Use your login name and password to gain access. You should see the CLI prompt where you will enter the necessary commands:
 ```
-administrator@cli ```
+administrator@cli
+```
 Collecting the log data
 
 If the Terminal application has the ability to capture the session, enabling the logging to a file. Otherwise, you can copy the output from the Terminal and paste it in to a text file.
