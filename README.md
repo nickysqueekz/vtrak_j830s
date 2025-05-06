@@ -30,7 +30,8 @@ output to Grafana dash:
 ...
 
 
-Serial connection info:
+##Serial connection info:
+
 How to set up a serial connection to a VTrak and collect all logs using the command line interface
 You may encounter a situation where you need to collect information from a VTrak system for troubleshooting, and network access to the VTrak may be unavailable. The VTrak product line controllers have embedded serial data connection to allow access to the system’s Command Line Interface.
 
