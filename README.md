@@ -19,6 +19,36 @@ python3-serial rsyslog
   data_format = "influx"
   interval = "300s"  # 5 minutes
 
+### Measurements:
+
+enclosure_status
+psu_status
+fan_status
+temperature
+voltage
+drive_slots
+
+### Tags:
+
+psu_status	psu (e.g., 1, 2)
+fan_status	fan (e.g., 1, 2)
+temperature	sensor (e.g., Backplane, I/O_Module_1)
+voltage	sensor (e.g., PSU_1, I/O_Module_2)
+drive_slots	slot (1–24)
+
+### Fields:
+
+enclosure_status	uptime (string, e.g., "4 days 22 hours...")
+psu_status	status (string, usually "Operational")
+fan_status	rpm (int), status (string)
+temperature	celsius (int), fahrenheit (int)
+voltage	voltage (float, e.g., 12.03)
+drive_slots	sas_address (string, e.g., "50_00_C5...")
+
+### Timestamp:
+All records are written with ns precision timestamp (e.g., 1746573534224191744).
+
+
 
 ## output to Grafana dash:
 |   |    |   |   |   |    |
