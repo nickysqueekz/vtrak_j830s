@@ -37,10 +37,11 @@ How to set up a serial connection to a VTrak and collect all logs using the comm
 You may encounter a situation where you need to collect information from a VTrak system for troubleshooting, and network access to the VTrak may be unavailable. The VTrak product line controllers have embedded serial data connection to allow access to the system’s Command Line Interface.
 
 Each VTrak system includes two RJ11-to-DB9F cables in the Accessories box. These cables are used to establish a connection between the VTrak and any computer (PC, Mac, Linux) that has an embedded serial port or can use a USB-to-Serial adapter.
-
+```
 Promise RJ11-to-DB9F Cable
-![image](https://github.com/user-attachments/assets/f4c0736b-1343-4249-9a35-e60d71c7bba6)
 
+![image](https://github.com/user-attachments/assets/f4c0736b-1343-4249-9a35-e60d71c7bba6)
+```
 
 Note that you will need to have a terminal emulation application on your computer, or be familiar with any system tools that will allow you to access the serial port.
 
@@ -54,21 +55,21 @@ If you would like to build your own cable, follow the pinout diagram below:
 Setting up a serial cable connection
 
 First, plug the RJ11 end of the serial data cable in to the RJ11 serial connector on the left VTrak RAID controller.
-
+```
 VTrak system rear view - RJ11 serial connectors
-
+```
 ![image](https://github.com/user-attachments/assets/5c066fe9-d419-47b3-b72d-0eca07c9a805)
 
 
 Then, plug the DB9F end of the serial data cable in to either a computer serial port or a USB-Serial adapter.
-
+```
 USB-Serial Adapter
-
+```
 ![image](https://github.com/user-attachments/assets/7d8a4dcc-d9e2-48c1-8999-618d1a1ce84e)
 
-
+```
 Computer Serial Port
-
+```
 ![image](https://github.com/user-attachments/assets/977dfdb9-6d96-4ae1-9863-e30f689ba3cc)
 
 
